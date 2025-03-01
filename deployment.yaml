@@ -23,9 +23,9 @@ spec:
           resources:
             limits:
               memory: "2Gi"
-              cpu: "500m"
+              cpu: "1"
             requests:
-              memory: "4Gi"
+              memory: "2Gi"
               cpu: "1000m"
           ports:
             - name: httpport
