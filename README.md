@@ -10,6 +10,11 @@ kubectl logs POD_NAME -n devops-tools
 
 ```
 
+```bash
+kubectl exec -it POD_NAME -- cat /var/jenkins_home/secrets/initialAdminPassword -n devops-tools
+
+```
+
 Apply all the files:
 
 ```bash
