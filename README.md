@@ -22,7 +22,7 @@ kubectl apply -f jenkins-ingress.yaml
 
 ```
 
-Delete all the file:
+Delete all the files:
 
 ```bash
 kubectl delete -f namespace.yaml
