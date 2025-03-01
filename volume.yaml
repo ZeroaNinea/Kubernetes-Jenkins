@@ -26,11 +26,11 @@ spec:
   nodeAffinity:
     required:
       nodeSelectorTerms:
-      - matchExpressions:
-        - key: kubernetes.io/hostname
-          operator: In
-          values:
-          - worker-node01
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - zeroaninea
 
 ---
 apiVersion: v1
